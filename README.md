@@ -1,6 +1,6 @@
-# thesis
+# Thesis
 
-## Cache_intel
+## Cache_Intel
 
 To know the details of cache latency, the best replacement policy clone this repo
 
