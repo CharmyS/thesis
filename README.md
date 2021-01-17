@@ -6,15 +6,24 @@ To know the details of cache latency, the best replacement policy clone this rep
 
 This repo is inspired by nanobench by Andreas where I added the architecture of Kabylake and changed the cache details accordingly.
 
-# User version
+## Installation
 
-sudo apt install msr-tools
-git clone https://github.com/CharmyS/thesis.git
-cd thesis/Cache_Intel
-make user
+### User-space Version
 
-# Kernel version
+    sudo apt install msr-tools
+    git clone https://github.com/CharmyS/thesis.git
+    cd thesis/Cache_Intel
+    make user
 
-git clone https://github.com/CharmyS/thesis.git
-cd thesis/Cache_Intel
-make kernel
+
+### Kernel Module
+*Note: The following is not necessary if you would just like to use the user-space version.*
+
+    git clone https://github.com/CharmyS/thesis.git
+    cd thesis/Cache_Intel
+    make kernel
+
+To load the kernel module, run:
+
+    sudo insmod kernel/nb.ko # this is necessary after every reboot
+
