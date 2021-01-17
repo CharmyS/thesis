@@ -1,8 +1,4 @@
-------------------------------------------------------------------------------
-## Quick Way to Run Tests
-------------------------------------------------------------------------------
-
-See what happens! (works best if matplotlib is installed)
+To run the benchmark
 
     $ ./runall.sh
 
