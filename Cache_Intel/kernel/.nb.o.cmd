@@ -1,0 +1,1 @@
+cmd_/home/shacha/nanoBench/kernel/nb.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o /home/shacha/nanoBench/kernel/nb.o /home/shacha/nanoBench/kernel/nb_km.o /home/shacha/nanoBench/kernel/../common/nanoBench.o 

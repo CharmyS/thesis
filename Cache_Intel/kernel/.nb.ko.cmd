@@ -1,0 +1,1 @@
+cmd_/home/shacha/nanoBench/kernel/nb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T /usr/src/linux-headers-4.19.0-12-common/scripts/module-common.lds  --build-id  -o /home/shacha/nanoBench/kernel/nb.ko /home/shacha/nanoBench/kernel/nb.o /home/shacha/nanoBench/kernel/nb.mod.o ;  true

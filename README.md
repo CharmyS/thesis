@@ -1,2 +1,0 @@
-# thesis
-nanobench for intel
